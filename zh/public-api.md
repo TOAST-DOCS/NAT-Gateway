@@ -1,6 +1,6 @@
 ## Network > NAT Gateway > API v2 Guide
 
-To use the API, API endpoint and token are required. Refer to [API usage preparations](/Compute/Compute/en/identity-api/) to prepare the information required to use the API.
+To use the API, API endpoint and token are required. Refer to [API usage preparations](/Compute/Compute/zh/identity-api/) to prepare the information required to use the API.
 
 The NAT Gateway API utilizes an endpoint of the `network` type. The exact endpoint is referenced in the `serviceCatalog`of the token issuance response.
 
