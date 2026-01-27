@@ -4,9 +4,9 @@ APIを使用するにはAPIエンドポイントとトークンなどが必要�
 
 NATゲートウェイAPIは`network`タイプエンドポイントを利用します。正確なエンドポイントはトークン発行レスポンスの`serviceCatalog`を参照します。
 
-| タイプ | リージョン | エンドポイント |
-|---|---|---|
-| network | 韓国(パンギョ)リージョン<br>韓国(ピョンチョン)リージョン | https://kr1-api-network-infrastructure.nhncloudservice.com<br>https://kr2-api-network-infrastructure.nhncloudservice.com |
+| タイプ | リージョン                                | エンドポイント                                                                                                                      |
+|---|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| network | 韓国(パンギョ)リージョン<br>韓国(ピョンチョン)リージョン<br>韓国(光州)リージョン | https://kr1-api-network-infrastructure.nhncloudservice.com<br>https://kr2-api-network-infrastructure.nhncloudservice.com<br>https://kr3-api-network-infrastructure.nhncloudservice.com |
 
 APIレスポンスにガイドに記載されていないフィールドが表示される場合があります。このようなフィールドは、NHN Cloudの内部用途に使用され、事前告知なしに変更される可能性があるため、使用しないでください。
 
