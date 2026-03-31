@@ -4,9 +4,9 @@ To use the API, API endpoint and token are required. Refer to [API usage prepara
 
 The NAT Gateway API utilizes an endpoint of the `network` type. The exact endpoint is referenced in the `serviceCatalog`of the token issuance response.
 
-| Type | Region | Endpoint |
-|---|---|---|
-| network | Korea (Pangyo) Region<br>Korea (Pyeongchon) Region | https://kr1-api-network-infrastructure.nhncloudservice.com<br>https://kr2-api-network-infrastructure.nhncloudservice.com |
+| Type | Region                                                 | Endpoint                                                                                                                                                                               |
+|---|--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| network | Korea (Pangyo) Region<br>Korea (Pyeongchon) Region<br>Korea (Gwangju) Region | https://kr1-api-network-infrastructure.nhncloudservice.com<br>https://kr2-api-network-infrastructure.nhncloudservice.com<br>https://kr3-api-network-infrastructure.nhncloudservice.com |
 
 In each API response, you may find fields that are not specified within this guide. Those fields are for NHN Cloud internal usage, so refrain from using them because they may be changed without prior notice.
 
