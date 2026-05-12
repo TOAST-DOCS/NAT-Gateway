@@ -1,6 +1,6 @@
 ## Network > NAT Gateway > API v2 Guide
 
-To use the API, API endpoint and token are required. Refer to [API usage preparations](/Compute/Compute/zh/identity-api/) to prepare the information required to use the API.
+NHN Cloud Network services use IaaS tokens for authentication and authorization when making API calls. The IaaS token is an authentication token used for NHN Cloud's OpenStack-based infrastructure services (IaaS). For more information on issuing and using IaaS tokens, please refer to the [IaaS Token](/nhncloud/en/public-api/iaas-token).
 
 The NAT Gateway API utilizes an endpoint of the `network` type. The exact endpoint is referenced in the `serviceCatalog`of the token issuance response.
 
