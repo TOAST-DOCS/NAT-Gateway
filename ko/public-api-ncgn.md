@@ -1,4 +1,4 @@
-## Network > NAT Gateway > API v2 가이드
+## Network > NAT Gateway > API v2 가이드 { #network-nat-gateway-api-v2-guide }
 
 API를 사용하려면 API 엔드포인트와 토큰 등이 필요합니다. [API 사용 준비](/Compute/Compute/ko/identity-api-ncgn/)를 참고하여 API 사용에 필요한 정보를 준비합니다.
 
@@ -11,8 +11,8 @@ NAT 게이트웨이 API는 `network` 타입 엔드포인트를 이용합니다. 
 API 응답에 가이드에 명시되지 않은 필드가 나타날 수 있습니다. 이런 필드는 NHN Cloud 내부 용도로 사용되며 사전 공지 없이 변경될 수 있으므로 사용하지 않습니다.
 
 
-## NAT 게이트웨이
-### NAT 게이트웨이 목록 보기
+## NAT 게이트웨이 { #nat-gateway }
+### NAT 게이트웨이 목록 보기 { #view-a-list-of-nat-gateways }
 ```
 GET /v2.0/natgateways
 X-Auth-Token: {tokenId}
@@ -81,7 +81,7 @@ X-Auth-Token: {tokenId}
 
 ---
 
-### NAT 게이트웨이 보기
+### NAT 게이트웨이 보기 { #view-nat-gateways }
 ```
 GET /v2.0/natgateways/{NatGatewayId}
 X-Auth-Token: {tokenId}
@@ -143,7 +143,7 @@ X-Auth-Token: {tokenId}
 </details>
 
 ---
-### NAT 게이트웨이 생성하기
+### NAT 게이트웨이 생성하기 { #create-a-nat-gateway }
 
 새로운 NAT 게이트웨이를 생성합니다.
 
@@ -231,7 +231,7 @@ X-Auth-Token: {tokenId}
 </details>
 
 ---
-### NAT 게이트웨이 수정하기
+### NAT 게이트웨이 수정하기 { #modifying-the-nat-gateway }
 
 기존 NAT 게이트웨이를 수정합니다.
 
@@ -314,7 +314,7 @@ X-Auth-Token: {tokenId}
 </details>
 
 ---
-### NAT 게이트웨이 삭제하기
+### NAT 게이트웨이 삭제하기 { #delete-a-nat-gateway }
 지정한 NAT 게이트웨이를 삭제합니다.
 ```
 DELETE /v2.0/natgateways/{NatGatewayId}
