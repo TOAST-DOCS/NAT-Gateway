@@ -1,9 +1,13 @@
-## Network > NAT Gateway > 概要
+<!-- pre-align:aligned sig=cda93b6a10e3 -->
+
+<a id="network-nat-gateway-overview"></a>
+## Network > NAT Gateway > 概要 { #network-nat-gateway-overview }
 NATゲートウェイを利用すると、インターネットゲートウェイが接続されていないインスタンスがインターネットにアクセスできます。しかし、インターネットからこのインスタンスへの接続を始めることはできません。
 韓国(パンギョ)、韓国(ピョンチョン)リージョンでのみ提供する機能です。
 
 
-### 主な機能
+<a id="main-features"></a>
+### 主な機能 { #main-features }
 * インターネットゲートウェイに接続されていないインスタンスがNATゲートウェイのFloating IPでインターネットにアクセスできます。
 * ルーティングテーブルから特定CIDRに対してNATゲートウェイをゲートウェイに指定するルートを設定する場合、このルーティングテーブルに接続されたインスタンスから設定されたCIDRを宛先とするパケットのソースIPはNATゲートウェイのFloating IPに変換されます。
 * 1つのNATゲートウェイは、同じVPC内の複数のルーティングテーブルでゲートウェイに指定できます。
