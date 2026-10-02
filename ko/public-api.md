@@ -55,7 +55,7 @@ X-Auth-Token: {tokenId}
 | natgateways.floating_ip    | Body | String | NAT 게이트웨이의 플로팅 IP 주소                           |
 | natgateways.create_time    | Body | String | NAT 게이트웨이 생성 시간(UTC 기준)                       |
 | natgateways.description    | Body | String | NAT 게이트웨이 설명                                   |
-| natgateways.status         | Body | Enum | NAT 게이트웨이 상태<br>`ACTIVE`, `BUILD`, `ERROR` 중 하나. |
+| natgateways.status         | Body | Enum | NAT 게이트웨이 상태<br>`ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, `MIGRATION_ERROR` 중 하나. |
 
 
 <details><summary>예시</summary>
@@ -123,7 +123,7 @@ X-Auth-Token: {tokenId}
 | natgateway.floating_ip    | Body | String | NAT 게이트웨이의 플로팅 IP 주소                            |
 | natgateway.create_time    | Body | String | NAT 게이트웨이 생성 시간(UTC 기준)                            |
 | natgateway.description    | Body | String | NAT 게이트웨이 설명                                    |
-| natgateway.status         | Body | Enum | NAT 게이트웨이 상태<br>`ACTIVE`, `BUILD`, `ERROR` 중 하나. |
+| natgateway.status         | Body | Enum | NAT 게이트웨이 상태<br>`ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, `MIGRATION_ERROR` 중 하나. |
 
 
 <details><summary>예시</summary>
@@ -214,7 +214,7 @@ X-Auth-Token: {tokenId}
 | natgateway.floating_ip    | Body | String | NAT 게이트웨이의 플로팅 IP 주소                            |
 | natgateway.create_time    | Body | String | NAT 게이트웨이 생성 시간(UTC 기준)                               |
 | natgateway.description    | Body | String | NAT 게이트웨이 설명                                    |
-| natgateway.status         | Body | Enum | NAT 게이트웨이 상태<br>`ACTIVE`, `BUILD`, `ERROR` 중 하나. |
+| natgateway.status         | Body | Enum | NAT 게이트웨이 상태<br>`ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, `MIGRATION_ERROR` 중 하나. |
 
 
 <details><summary>예시</summary>
@@ -300,7 +300,7 @@ X-Auth-Token: {tokenId}
 | natgateway.floating_ip    | Body | String | NAT 게이트웨이의 플로팅 IP 주소                            |
 | natgateway.create_time    | Body | String | NAT 게이트웨이 생성 시간(UTC 기준)                         |
 | natgateway.description    | Body | String | NAT 게이트웨이 설명                                    |
-| natgateway.status         | Body | Enum | NAT 게이트웨이 상태<br>`ACTIVE`, `BUILD`, `ERROR` 중 하나. |
+| natgateway.status         | Body | Enum | NAT 게이트웨이 상태<br>`ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, `MIGRATION_ERROR` 중 하나. |
 
 
 <details><summary>예시</summary>
