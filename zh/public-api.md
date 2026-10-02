@@ -48,7 +48,7 @@ This API does not require a request body.
 | natgateways.floating_ip    | Body | String | Floating IP addresses for NAT gateways                           |
 | natgateways.create_time    | Body | String | NAT gateway creation time (in UTC)                       |
 | natgateways.description    | Body | String | NAT gateway description                                   |
-| natgateways.status         | Body | Enum | NAT gateway status<br>One of `ACTIVE`, `BUILD`, or `ERROR`. |
+| natgateways.status         | Body | Enum | NAT gateway status<br>One of `ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, or `MIGRATION_ERROR`. |
 
 
 <details><summary>Example</summary>
@@ -113,7 +113,7 @@ This API does not require a request body.
 | natgateway.floating_ip    | Body | String | Floating IP addresses for NAT gateways                            |
 | natgateway.create_time    | Body | String | NAT gateway creation time (in UTC)                            |
 | natgateway.description    | Body | String | NAT gateway descriptions                                    |
-| natgateway.status         | Body | Enum | NAT gateway status<br>One of `ACTIVE`, `BUILD`, or `ERROR`. |
+| natgateway.status         | Body | Enum | NAT gateway status<br>One of `ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, or `MIGRATION_ERROR`. |
 
 
 <details><summary>Example</summary>
@@ -201,7 +201,7 @@ X-Auth-Token: {tokenId}
 | natgateway.floating_ip    | Body | String | Floating IP addresses for NAT gateways                            |
 | natgateway.create_time    | Body | String | NAT gateway creation time (in UTC)                               |
 | natgateway.description    | Body | String | NAT gateway descriptions                                    |
-| natgateway.status         | Body | Enum | NAT gateway status<br>One of `ACTIVE`, `BUILD`, or `ERROR`. |
+| natgateway.status         | Body | Enum | NAT gateway status<br>One of `ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, or `MIGRATION_ERROR`. |
 
 
 <details><summary>Example</summary>
@@ -284,7 +284,7 @@ X-Auth-Token: {tokenId}
 | natgateway.floating_ip    | Body | String | Floating IP addresses for NAT gateways                            |
 | natgateway.create_time    | Body | String | NAT gateway creation time (in UTC)                         |
 | natgateway.description    | Body | String | NAT gateway descriptions                                    |
-| natgateway.status         | Body | Enum | NAT gateway status<br>One of `ACTIVE`, `BUILD`, or `ERROR`. |
+| natgateway.status         | Body | Enum | NAT gateway status<br>One of `ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, or `MIGRATION_ERROR`. |
 
 
 <details><summary>Example</summary>

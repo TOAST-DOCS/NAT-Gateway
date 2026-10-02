@@ -55,7 +55,7 @@ X-Auth-Token: {tokenId}
 | natgateways.floating_ip    | Body | String | NATゲートウェイのフローティングIPアドレス                         |
 | natgateways.create_time    | Body | String | NATゲートウェイ作成時間(UTC基準)                       |
 | natgateways.description    | Body | String | NATゲートウェイの説明                                 |
-| natgateways.status         | Body | Enum | NATゲートウェイの状態<br>`ACTIVE`, `BUILD`, `ERROR`のいずれか。 |
+| natgateways.status         | Body | Enum | NATゲートウェイの状態<br>`ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, `MIGRATION_ERROR`のいずれか。 |
 
 
 <details><summary>例</summary>
@@ -123,7 +123,7 @@ X-Auth-Token: {tokenId}
 | natgateway.floating_ip    | Body | String | NATゲートウェイのフローティングIPアドレス                          |
 | natgateway.create_time    | Body | String | NATゲートウェイ作成時間(UTC基準)                            |
 | natgateway.description    | Body | String | NATゲートウェイの説明                                  |
-| natgateway.status         | Body | Enum | NATゲートウェイの状態<br>`ACTIVE`, `BUILD`, `ERROR`のいずれか。 |
+| natgateway.status         | Body | Enum | NATゲートウェイの状態<br>`ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, `MIGRATION_ERROR`のいずれか。 |
 
 
 <details><summary>例</summary>
@@ -214,7 +214,7 @@ X-Auth-Token: {tokenId}
 | natgateway.floating_ip    | Body | String | NATゲートウェイのフローティングIPアドレス                          |
 | natgateway.create_time    | Body | String | NATゲートウェイ作成時間(UTC基準)                               |
 | natgateway.description    | Body | String | NATゲートウェイの説明                                  |
-| natgateway.status         | Body | Enum | NATゲートウェイの状態<br>`ACTIVE`, `BUILD`, `ERROR`のいずれか。 |
+| natgateway.status         | Body | Enum | NATゲートウェイの状態<br>`ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, `MIGRATION_ERROR`のいずれか。 |
 
 
 <details><summary>例</summary>
@@ -300,7 +300,7 @@ X-Auth-Token: {tokenId}
 | natgateway.floating_ip    | Body | String | NATゲートウェイのフローティングIPアドレス                          |
 | natgateway.create_time    | Body | String | NATゲートウェイ作成時間(UTC基準)                         |
 | natgateway.description    | Body | String | NATゲートウェイの説明                                  |
-| natgateway.status         | Body | Enum | NATゲートウェイの状態<br>`ACTIVE`, `BUILD`, `ERROR`のいずれか。 |
+| natgateway.status         | Body | Enum | NATゲートウェイの状態<br>`ACTIVE`, `BUILD`, `ERROR`, `MIGRATING`, `MIGRATION_ERROR`のいずれか。 |
 
 
 <details><summary>例</summary>
