@@ -39,4 +39,4 @@
 
 <a id="configure-a-network-acl"></a>
 ### ネットワークACL設定 { #configure-a-network-acl }
-韓国(ピョンチョン)リージョンでNATゲートウェイのVPCに対してネットワークACL設定を行う場合にNATゲートウェイにも適用されます。 [ネットワークACL設定方法](https://docs.toast.com/ja/Network/Network%20ACL/ja/overview/)
+韓国(ピョンチョン)リージョンでNATゲートウェイのVPCに対してネットワークACL設定を行う場合にNATゲートウェイにも適用されます。 [ネットワークACL設定方法](https://docs.nhncloud.com/ja/Network/Network%20ACL/ja/overview/)

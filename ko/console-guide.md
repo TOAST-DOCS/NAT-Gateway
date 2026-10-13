@@ -39,4 +39,4 @@
 
 <a id="configure-a-network-acl"></a>
 ### 네트워크 ACL 설정 { #configure-a-network-acl }
-한국(평촌) 리전에서 NAT 게이트웨이의 VPC에 대해서 네트워크 ACL 설정을 하는 경우에 NAT 게이트웨이에도 적용됩니다. [네트워크 ACL 설정 방법](https://docs.toast.com/ko/Network/Network%20ACL/ko/overview/)
+한국(평촌) 리전에서 NAT 게이트웨이의 VPC에 대해서 네트워크 ACL 설정을 하는 경우에 NAT 게이트웨이에도 적용됩니다. [네트워크 ACL 설정 방법](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/overview/)
